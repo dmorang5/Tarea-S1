@@ -590,8 +590,8 @@ class Ejercicios:
         nedad = int(input("Ingrese cuantas edades se ingresará: "))
         for i in range(nedad):
             edad = int(input("Ingrese la edad, nota: las edades deben ser mayores a 18: "))
-            acumulador = acumulador + edad
-            if edad >= 18:
+            if edad >= 18
+                acumulador = acumulador + edad
                 promedio = acumulador / nedad
         print("El promedio de las edades es de", promedio)
 
